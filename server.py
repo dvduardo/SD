@@ -13,6 +13,5 @@ while palavra:
 	print "Got msg:",msg,"from", addr
 	if msg == 'Close':
 		palavra=False
-	print msg
 s.close()              # Close the connection
 print "Servidor ",addr,"fechou"
